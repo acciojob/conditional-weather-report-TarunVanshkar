@@ -19,7 +19,7 @@ const App = () => {
       <input type="text" placeholder="Enter Temperature" onChange={(e) => setTemp(e.target.value)} />
       <button onClick={handleClick}>Show Condition</button>
       <p>Temperature: <span style={{ color:temperatureColor }}>{weather.temperature}</span></p>
-      <p>Condition: weather.conditions</p>
+      <p>Conditions: {weather.conditions}</p>
     </div>
   )
 }
